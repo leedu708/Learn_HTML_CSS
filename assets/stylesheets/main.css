@@ -118,11 +118,21 @@ Buttons
   border-radius: 5px;
   display: inline-block;
   margin: 0;
+  color: #FFF;
+  cursor: pointer;
+  font-weight: 400;
+  letter-spacing: .5px;
+  text-transform: uppercase;
 }
 
 .btn-alt {
-  border: 1px solid #dfe2e5;
+  border: 1px solid #FFF;
   padding: 10px 30px;
+}
+
+.btn-alt:hover {
+  background: #FFF;
+  color: #648880;
 }
 
 /*
@@ -134,6 +144,7 @@ Home
 */
 
 .hero {
+  color: #FFF;
   padding: 22px 80px 66px 80px;
   line-height: 44px;
   text-align: center;
@@ -219,6 +230,7 @@ Custom Styles
 */
 
 body {
+  background: #293F50;
   color: #888;
   font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
@@ -299,4 +311,54 @@ a {
 
 p a {
   border-bottom: 1px solid #DFE2E5;
+}
+
+.primary-header a,
+.primary-footer a {
+  color: #FFF;
+}
+
+.primary-header a:hover,
+.primary-footer a:hover {
+  color: #648880;
+}
+
+/*
+=====================================================================
+
+Rows
+
+=====================================================================
+*/
+
+.row {
+  background: #FFF;
+  min-width: 960px;
+  padding: 66px 0 44px 0;
+}
+
+.row-alt {
+  min-width: 960px;
+  background: #CBE2C1;
+  background: -webkit-linear-gradient(to right, #A1D3B0, #F6F1D3);
+  background: -moz-linear-gradient(to right, #A1D3B0, #F6F1D3);
+  background: linear-gradient(to right, #A1D3B0, #F6F1D3);
+  padding: 44px 0 22px 0;
+}
+
+/*
+=====================================================================
+
+Leads
+
+=====================================================================
+*/
+
+.lead {
+  text-align: center;
+}
+
+.lead p {
+  font-size: 21px;
+  line-height: 33px;
 }
